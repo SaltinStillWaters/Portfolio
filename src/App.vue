@@ -1,4 +1,5 @@
 <template>
+  <SpeedInsights />
   <v-app>
     <app-header />
     <v-main>
@@ -9,6 +10,7 @@
 
 <script lang="ts" setup>
 import AppHeader from './components/AppHeader.vue';
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 
   //
 </script>
