@@ -48,7 +48,7 @@
           Resume <span class="arrow">↗</span>
         </v-btn>
 
-        <v-btn class="btn-secondary" size="large">
+        <v-btn class="btn-secondary" size="large" href="#contact">
           Hire me
         </v-btn>
       </div>
