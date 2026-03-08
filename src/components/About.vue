@@ -20,8 +20,7 @@
       <div class="quote">
         <div class="quote-icon">“</div>
         <p>
-          Jenny's Exceptional product design ensure our
-          website's success. Highly Recommended
+          A 4th year student in Computer Science looking for his next internship as a software developer
         </p>
       </div>
     </div>
@@ -30,8 +29,8 @@
     <div class="side-right">
       <div class="rating">
         ⭐⭐⭐⭐⭐
-        <h2>10 Years</h2>
-        <p>Experience</p>
+        <h2>1 Internship</h2>
+        <p>Completed</p>
       </div>
     </div>
 
@@ -40,16 +39,13 @@
 
       <div class="circle"></div>
 
-      <v-img
-        src="@/assets/images/portrait-cropped.png"
-        width="380"
-        class="hero-image"
-      />
+      <v-img src="@/assets/images/portrait-cropped.png" width="380" class="hero-image" />
 
       <!-- GLASS BUTTON WRAPPER -->
       <div class="buttons-wrapper">
-        <v-btn class="btn-primary" size="large">
-          Portfolio <span class="arrow">↗</span>
+        <v-btn class="btn-primary" href="/Pejana_Resume_Software_Engineer_Intern.pdf" target="_blank" download
+          size="large">
+          Resume <span class="arrow">↗</span>
         </v-btn>
 
         <v-btn class="btn-secondary" size="large">
@@ -165,7 +161,8 @@
 /* BUTTON WRAPPER (GLASS) */
 .buttons-wrapper {
   position: absolute;
-  top: 400px; /* adjust this to position vertically */
+  top: 400px;
+  /* adjust this to position vertically */
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
