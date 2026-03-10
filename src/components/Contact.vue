@@ -31,6 +31,11 @@ github.com/saltinstillwaters
 </a>
 </div>
 
+<div class="contact-item">
+<v-icon class="contact-icon">mdi-phone</v-icon>
+<span>09554813800</span>
+</div>
+
 </div>
 
 <!-- CONTACT FORM -->
